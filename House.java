@@ -24,7 +24,7 @@ public class House implements Cloneable, Comparable<House> {
     @Override /** Override the protected clone method defined in
     the Object class, and strengthen its accessibility */
     public Object clone() throws CloneNotSupportedException {
-        return super.clone()
+        return super.clone();
     }
 
     @Override // Implement the compareTo method defined in Comparable
