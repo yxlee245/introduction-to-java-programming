@@ -15,5 +15,8 @@ public class ComputeAreaWithConsoleInput {
         // Display results
         System.out.println("The area for the circle of radius " +
         radius + " is " + area);
+
+        // Close input
+        input.close();
     }
 }

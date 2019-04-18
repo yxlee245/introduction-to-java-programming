@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class CountLettersInArray {
     /** Main method */
     public static void main(String[] args) {

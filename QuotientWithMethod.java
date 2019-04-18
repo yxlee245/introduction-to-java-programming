@@ -21,5 +21,8 @@ public class QuotientWithMethod {
         int result = quotient(number1, number2);
         System.out.println(number1 + " / " + number2 + " is " +
         result);
+
+        // Close input
+        input.close();
     }
 }

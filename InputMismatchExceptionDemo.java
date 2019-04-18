@@ -21,5 +21,8 @@ public class InputMismatchExceptionDemo {
                 input.nextLine(); // Discard input
             }
         } while (continueInput);
+
+        // Close input
+        input.close();
     }
 }

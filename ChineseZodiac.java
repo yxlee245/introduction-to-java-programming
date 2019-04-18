@@ -21,5 +21,8 @@ public class ChineseZodiac {
             case 10: System.out.println("horse"); break;
             case 11: System.out.println("sheep");
         }
+
+        // Close input
+        input.close();
     }
 }

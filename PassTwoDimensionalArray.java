@@ -21,6 +21,9 @@ public class PassTwoDimensionalArray {
             }
         }
 
+        // Close input
+        input.close();
+
         return m;
     }
 

@@ -21,6 +21,9 @@ public class CheckSudokuSolution {
             }
         }
 
+        // Close input
+        input.close();
+
         return grid;
     }
 

@@ -36,5 +36,8 @@ public class LotteryUsingStrings {
         else {
             System.out.println("Sorry,no match");
         }
+
+        // Close input
+        input.close();
     }
 }

@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class ReadFileFromURL {
     public static void main(String[] args) {
         System.out.print("Enter a URL: ");
-        String URLString = new Scanner(System.in).next();
+        Scanner urlScanner = new Scanner(System.in);
+        String URLString = urlScanner.next();
+        
     
         try {
             java.net.URL url = new java.net.URL(URLString);
@@ -15,6 +17,9 @@ public class ReadFileFromURL {
             }
 
             System.out.println("The file size is " + count + " characters");
+
+            // Close input
+            input.close();
         }
         catch (java.net.MalformedURLException ex) {
             System.out.println("Invalid URL");
@@ -22,5 +27,8 @@ public class ReadFileFromURL {
         catch (java.io.IOException ex) {
             System.out.println("I/O Errors: no such file");
         }
+
+        // Close urlScanner
+        urlScanner.close();
     }
 }

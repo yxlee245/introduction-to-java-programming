@@ -26,5 +26,8 @@ public class AnalyzeNumbers {
         System.out.println("Average is " + average);
         System.out.println("Number of elements above average is " + count);
 
+        // Close input
+        input.close();
+
     }
 }

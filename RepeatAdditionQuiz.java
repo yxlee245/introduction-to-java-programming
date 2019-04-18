@@ -17,5 +17,8 @@ public class RepeatAdditionQuiz {
         }
 
         System.out.println("You got it!");
+
+        // Close input
+        input.close();
     }
 }

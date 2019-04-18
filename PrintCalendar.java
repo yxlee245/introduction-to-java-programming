@@ -15,6 +15,9 @@ public class PrintCalendar {
 
         // Print calendar for the month of the year
         printMonth(year, month);
+
+        // Close input
+        input.close();
     }
 
     /** Print the calendar for a month in a year */

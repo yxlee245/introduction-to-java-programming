@@ -17,5 +17,8 @@ public class ComputeAverage {
         // Display results
         System.out.println("The average of " + number1 + " " + number2 +
         " " + number3 + " is " + average);
+
+        // Close input
+        input.close();
     }
 }

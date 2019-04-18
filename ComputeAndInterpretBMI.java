@@ -34,5 +34,8 @@ public class ComputeAndInterpretBMI {
         else {
             System.out.println("Obese");
         }
+
+        // Close input
+        input.close();
     }
 }

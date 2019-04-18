@@ -19,5 +19,8 @@ public class TestDoWhile {
         } while (data != 0);
 
         System.out.println("The sum is " + sum);
+
+        // Close input
+        input.close();
     }
 }

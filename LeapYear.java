@@ -12,5 +12,8 @@ public class LeapYear {
 
         // Display the result
         System.out.println(year + " is a leap year? " + isLeapYear);
+
+        // Close input
+        input.close();
     }
 }

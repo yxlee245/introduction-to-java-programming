@@ -16,5 +16,8 @@ public class OrderTwoCities {
         else {
             System.out.println("The cities in alphabetical order are " + city2 + " " + city1);
         }
+
+        // Close input
+        input.close();
     }
 }

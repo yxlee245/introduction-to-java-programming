@@ -20,5 +20,8 @@ public class TestBooleanOperators {
         if (number % 2 == 0 ^ number % 3 == 0) {
             System.out.println(number + " is divisible by 2 or 3, but not both.");
         }
+
+        // Close input
+        input.close();
     }
 }

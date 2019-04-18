@@ -19,5 +19,8 @@ public class DistinctNumbers {
         // Display the distinct numbers
         for (int i = 0; i < list.size(); i++)
             System.out.print(list.get(i) + " ");
+
+        // Close input
+        input.close();
     }
 }

@@ -22,5 +22,8 @@ public class GreatestCommonDivisor {
         }
 
         System.out.println("The greatest common divisor for " + n1 + " and " + n2 + " is " + gcd);
+
+        // Close input
+        input.close();
     }
 }

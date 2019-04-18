@@ -13,5 +13,8 @@ public class SimpleIfDemo {
         if (number % 2 == 0) {
             System.out.println("HiEven");
         }
+
+        // Close input
+        input.close();
     }
 }

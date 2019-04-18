@@ -26,5 +26,8 @@ public class SubtractionQuiz {
             System.out.println("Your answer is wrong.");
             System.out.println(number1 + " - " + number2 + " should be " + (number1 - number2));
         }
+
+        // Close input
+        input.close();
     }
 }

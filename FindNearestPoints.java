@@ -37,6 +37,9 @@ public class FindNearestPoints {
         System.out.println("The closest two points are " +
         "(" + points[p1][0] + ", " + points[p2][0] + ") and (" +
         points[p2][0] + ", " + points[p2][1] + ")");
+
+        // Close input
+        input.close();
     }
 
     /** Compute the distance between two points (x1, y1) and (x2, y2) */

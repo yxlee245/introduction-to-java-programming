@@ -7,6 +7,9 @@ public class WebCrawler {
         System.out.print("Enter a URL: ");
         String url = input.nextLine();
         crawler(url); // Traverse the Web from the starting url
+
+        // Close input
+        input.close();
     }
 
     public static void crawler(String startingURL) {
@@ -49,6 +52,8 @@ public class WebCrawler {
                         current = -1;
                 }
             }
+            // Close input
+            input.close();
         }
         catch (Exception ex) {
             System.out.println("Error: " + ex.getMessage());

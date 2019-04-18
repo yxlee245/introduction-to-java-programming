@@ -24,5 +24,8 @@ public class HexDigit2Dec {
         else {
             System.out.println(ch + " is an invalid input");
         }
+
+        // Close input
+        input.close();
     }
 }

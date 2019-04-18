@@ -22,5 +22,8 @@ public class GuessNumberOneTime {
         else {
             System.out.println("Your guess is too low");
         }
+
+        // Close input
+        input.close();
     }
 }

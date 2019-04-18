@@ -14,5 +14,8 @@ public class AdditionQuiz {
         int answer = input.nextInt();
 
         System.out.println(number1 + " + " + number2 + " is " + (number1 + number2 == answer));
+
+        // Close input
+        input.close();
     }
 }

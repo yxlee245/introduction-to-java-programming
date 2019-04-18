@@ -26,5 +26,8 @@ public class TestLoanClass {
         "The monthly payment is %.2f\nThe total payment is %.2f\n",
         loan.getLoanDate().toString(), loan.getMonthlyPayment(),
         loan.getTotalPayment());
+
+        // Close input
+        input.close();
     }
 }

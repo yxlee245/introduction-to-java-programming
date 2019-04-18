@@ -17,5 +17,8 @@ public class ComputeAreaWithConstant {
         // Display result
         System.out.println("The area of the circle of radius " + radius +
         " is " + area);
+
+        // Close input
+        input.close();
     }
 }

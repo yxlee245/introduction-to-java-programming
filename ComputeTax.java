@@ -158,5 +158,8 @@ public class ComputeTax {
 
         // Display the result
         System.out.println("Tax is " + (int)(tax * 100) / 100.0);
+
+        // Close input
+        input.close();
     }
 }

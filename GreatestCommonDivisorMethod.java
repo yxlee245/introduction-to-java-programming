@@ -13,6 +13,9 @@ public class GreatestCommonDivisorMethod {
         int n2 = input.nextInt();
 
         System.out.println("The greatest common divisor for " + n1 + " and " + n2 + " is " + gcd(n1, n2));
+
+        // Close input
+        input.close();
     }
 
     /** Return the gcd of two integers */

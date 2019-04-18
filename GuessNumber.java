@@ -24,5 +24,8 @@ public class GuessNumber {
                 System.out.println("Your guess is too low");
             } // End of loop
         }
+
+        // Close input
+        input.close();
     }
 }

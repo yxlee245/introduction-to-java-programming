@@ -21,5 +21,8 @@ public class SentinelValue {
         }
 
         System.out.println("The sum is " + sum);
+
+        // Close input
+        input.close();
     }
 }

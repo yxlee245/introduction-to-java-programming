@@ -47,5 +47,8 @@ public class GuessBirthdayUsingArray {
         }
 
         System.out.println("Your birthday is " + day);
+
+        // Close input
+        input.close();
     }
 }
